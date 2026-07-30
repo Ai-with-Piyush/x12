@@ -1,1 +1,1 @@
-export const API_URL = "https://either-future-strengths-alike.trycloudflare.com";
+export const API_URL = "https://fluid-fees-walls-halo.trycloudflare.com";
