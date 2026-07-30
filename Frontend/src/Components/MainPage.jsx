@@ -204,7 +204,7 @@ function MainApp() {
       </div>
 
       <div className="flex justify-center items-center bottom-5 fixed inset-x-0">
-        <div className="flex flex-col border border-black bg-white w-fit p-4 gap-3 rounded-md lg:w-[920px]">
+        <div className="flex flex-col border border-black bg-transparent w-fit p-4 gap-3 rounded-md lg:w-[920px]">
           {files.length > 0 && (
             <div className="flex flex-wrap gap-2">
               {files.map((file, i) => (
@@ -222,7 +222,7 @@ function MainApp() {
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
             onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); HandleSubmit(); } }}
-            className="w-fit outline-none resize-none font-bold p-2 lg:w-[880px]"
+            className="w-fit outline-none resize-none bg-transparent font-bold p-2 lg:w-[880px]"
           ></textarea>
           <div className="flex justify-between">
             <button className="hover:bg-black hover:text-white rounded p-1 hover:cursor-pointer" onClick={() => document.getElementById("inputfile").click()}><PlusIcon size={20} /></button>
