@@ -5,7 +5,7 @@ function Midd() {
     return (
         <div className="text-black bg-white">
             <div className="flex flex-col items-center pt-10 md:pt-16 lg:pt-20 px-4 text-center">
-                <p className="font-bold rounded-md text-xs sm:text-sm flex px-4 sm:px-5 mt-6 md:mt-10">
+                <p className="font-bold rounded-md text-xs sm:text-sm flex px-4  flex items-center sm:px-3 mt-6 md:mt-10">
                     🎉New : Use<b className="bg-gray-400 font-bold rounded p-1 flex justify-center"> PIYUSH0</b> to get 40% Off!
                 </p>
                 
