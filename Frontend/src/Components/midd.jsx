@@ -6,10 +6,10 @@ function Midd() {
         <div className="text-black bg-white">
             <div className="flex flex-col items-center pt-10 md:pt-16 lg:pt-20 px-4 text-center">
                 <p className="font-bold rounded-md text-xs sm:text-sm flex px-4 sm:px-5 mt-6 md:mt-10">
-                    🎉New : This is Powered By AI.
+                    🎉New : Use Promo:<b className="bg-gray-400 font-bold rounded p-2 "> PIYUSH01 </b>  to get 40% Off!
                 </p>
                 <p className="font-bold rounded-md text-xs sm:text-sm flex px-4 sm:px-5 mt-2 md:mt-10">
-                    Use Promo:<b className="bg-gray-400 font-bold ">PIYUSH01</b>to get 40% Off!
+                    Use Promo:<b className="bg-gray-400 font-bold rounded p-1 "> PIYUSH01</b>  to get 40% Off!
                 </p>
                 <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold mt-4 md:mt-6">
                     Build consistent Design

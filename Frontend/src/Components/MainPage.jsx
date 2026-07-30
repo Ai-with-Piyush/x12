@@ -143,7 +143,7 @@ function MainApp() {
         </div>
 
         {isSidebarOpen && (
-          <div className="flex flex-col gap-5 w-fit py-5 rounded-md text-sm mx-4 my-3 fixed top-14 left-0 z-10">
+          <div className="flex flex-col gap-5 w-fit py-5 bg-white rounded-md text-sm mx-4 my-3 fixed top-14 left-0 z-10">
             <ul className="flex flex-col gap-4 ">
               <li onClick={handleNewChat} className="flex gap-1 items-center hover:bg-black hover:text-white   text-black w-[200px] rounded-md p-1 hover:cursor-pointer"><PlusIcon size={25} />New Chat</li>
               <li onClick={() => setShowHistory(!showHistory)} className="flex gap-1 items-center hover:bg-black hover:text-white   text-black w-[200px] rounded-md p-1 hover:cursor-pointer"><MessageCircle size={25} />Chat History</li>
