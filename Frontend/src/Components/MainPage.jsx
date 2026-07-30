@@ -29,7 +29,7 @@ function MainApp() {
   const token = localStorage.getItem("access_token");
 
   const fetchChats = () => {
-    fetch(`${API_URL}/chat`, {
+    fetch(`${API_URL}/chats`, {
       headers: { authorization: `Bearer ${token}` }
     })
       .then(res => res.json())
