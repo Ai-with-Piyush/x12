@@ -1,0 +1,16 @@
+# Env files
+Backend/.env
+Frontend/.env
+
+# Python
+Backend/venv/
+Frontend/venv/
+__pycache__/
+*.pyc
+
+# React
+Frontend/node_modules/
+dist/
+
+# Chroma
+Backend/chroma_db/

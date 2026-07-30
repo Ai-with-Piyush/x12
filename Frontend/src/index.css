@@ -1,0 +1,24 @@
+@plugin "@tailwindcss/typography";
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import "tailwindcss";
+
+body {
+  font-family: "Arimo";
+  background-color: #ffffff;
+}
+
+html, body {
+  overscroll-behavior-y: none;
+}
+
+@theme {
+  --font-moonlight: 'Tan Moonlight',"Arimo";
+}
+
+@font-face {
+  font-family: 'Tan Moonlight';
+  src: url('/src/assets/Fonts/TAN Moonlight Display.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,1 @@
+export const API_URL = "https://either-future-strengths-alike.trycloudflare.com";
