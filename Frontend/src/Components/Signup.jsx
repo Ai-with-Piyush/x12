@@ -32,7 +32,7 @@ function SignUp() {
       }
       navigate("/login");
     } catch (err) {
-      setError("Server not reachable. Is your backend running?");
+      setError("Piyush is dreaming about becoming a unicorn startup Founder. Try again later.");
     } finally {
       setLoading(false);
     }

@@ -28,7 +28,7 @@ function LogIn() {
         localStorage.setItem("access_token", data.access_token);
         navigate("/chat");
       } catch (err) {
-        setError("Server not reachable. Is your backend running?");
+        setError("Piyush and his pc are resting Now . So Come after sometime!");
       } finally {
         setLoading(false);
       }

@@ -179,7 +179,7 @@ function MainApp() {
         )}
       </div>
 
-      <div className="pt-20 pb-40 px-4 max-w-3xl mx-auto flex flex-col gap-4">
+      <div className="pt-20 pb-40 px-4 max-w-3xl font-bold mx-auto flex flex-col gap-4">
         {messages.map((msg, i) => (
           <div key={i} className={`flex flex-col ${msg.role === "user" ? "items-end" : "items-start"}`}>
             <div
