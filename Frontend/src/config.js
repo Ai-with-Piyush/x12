@@ -1,1 +1,1 @@
-export const API_URL = "https://screensavers-wrapped-beer-half.trycloudflare.com";
+export const API_URL = "https://app-juan-even-museums.trycloudflare.com";
